@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,11 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
     "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "eslint": "^7.2.0",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
   }
 }
