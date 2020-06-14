@@ -34,7 +34,7 @@ async function getTheToken(code){
  
   let token = await superagent
     .post(url)
-    .send({client_id : process.env.CLIENT_ID, client_secret: process.env.CLIENT_SECRET , code:code , redirect_uri: 'http://localhost:3000/oauth'});
+    .send({client_id : process.env.CLIENT_ID, client_secret: process.env.CLIENT_SECRET , code:code , redirect_uri: 'https://autbalqees.herokuapp.com/oauth'});
   
   return token.body.access_token;
 } 
