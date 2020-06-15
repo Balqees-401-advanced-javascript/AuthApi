@@ -19,3 +19,4 @@
 #### UML
 
 [UML](https://github.com/Balqees-401-advanced-javascript/authenticated-api-server/blob/master/JsonUML.png);
+[UML](https://github.com/Balqees-401-advanced-javascript/auth-server/blob/master/umlAut.png)
